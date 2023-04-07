@@ -1,0 +1,130 @@
+body{background-color: #3b5ef8; 
+    background-image: url('https://cdn.glitch.global/3ae0dc6f-3e01-454a-9279-009dea2afd82/background2.png?v=1680510398101'); 
+    background-repeat: repeat; background-attachment: fixed; overflow: scroll; width: auto; height: auto;
+    font-family: 'Itim'; margin:0
+}
+
+header{border: black solid 2px; background-color: white;width: 100%;display: inline-block;
+    margin-bottom: 70px;
+}
+
+ul b{list-style-type: none; height:10vh;
+
+}
+ul{list-style-type: none;
+    height: fit-content ;
+    }
+li a{display: inline-block;
+    padding: 7px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    float: right;}
+
+/*Home-Education Section*/
+.edu{
+    background-color:white; float:center; border: 2px black solid; width: 90%; display: block;
+    padding-bottom: px; position:relative; margin-bottom: 5vh; margin-left: auto;margin-right: auto;
+}
+.underline{ border-bottom:2px solid #000000; width:100%;}
+.overline{ border-top:2px solid #000000; width:100%;}
+
+.schoolinfo{display: flex; 
+	align-items: center; 
+	justify-content: center;
+	flex-wrap: wrap;
+list-style-type: disc; font-size: larger; margin-left: 15vh;}
+.coursework{display: flex; 
+	align-items : center; 
+	justify-content: center;
+	flex-wrap: wrap;
+list-style-type: disc; margin-left: 15vh;}
+ul a{list-style-type: disc;}
+
+footer{text-align: center;
+    font-family: "Itim";
+    font-size: large;
+    border: 2px solid black;
+    background-color:white;
+    text-decoration: none;
+    color:black;
+    position: static;bottom:0;
+    width: 99.9%;
+    margin: 0;
+    height: max-content; padding:20px 0px;padding-bottom:20px;padding-top: 20px; display: block; clear: both;
+}
+a{text-decoration: none;
+    color:black; margin: 15px;}
+
+.photowindow{background-color: rgb(255, 208, 0); width:400px; height: fit-content;
+    border: 2px solid black; margin-bottom: 0;z-index: 1; position:relative;
+}
+.lookatthis{background-color: white; width:400px; height: fit-content;
+    border: 2px solid black; margin-bottom: 0;font-size: larger; font-weight: bold;
+    margin-left: 46%; margin-top: -8%; margin-bottom:12vh;z-index: 2; position: relative;
+}
+
+/*Projects Style*/
+.pgtitle{font-size: xx-large; background-color: white;
+    border: solid 2px black; text-align: center; width:100%; height: 12vh;
+}
+.titletxt{
+    font-size:xx-large; 
+    padding-top: 0px;
+}
+
+.row {
+    display: flex;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+  
+  .project{
+    margin: 1vw;
+  }
+  .fadebox {
+    position: relative;
+    width: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 98%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(48,48,48, 0.7);
+    padding: 0vw;
+    text-align: left;
+    overflow-y: scroll;
+  }
+  
+  .fadebox:hover .overlay {
+    opacity: 1;
+  }
+  
+  .name {
+    text-align: center;
+    font-size: larger;
+  }
+  
+.text3{
+    font-size: larger;
+    color:white;
+    text-align: center;
+}
+
+  .text4{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 14px;}
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+    
